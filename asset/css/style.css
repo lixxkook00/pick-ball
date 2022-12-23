@@ -159,7 +159,7 @@ a{
 .bag-img,
 .tree-img{
     width: 90vw;
-    max-width: 400px;
+    max-width: 50vh;
 }
 
 .bell{
@@ -170,12 +170,12 @@ a{
 
 .bell img{
     height: auto;
-    width: 20px !important;
+    width: 30px !important;
 }
 
 .bell:hover img{
     cursor: pointer;
-    width: 25px !important;
+    width: 35px !important;
     animation: buzz-on-hover 0.25s linear infinite;
 }
 
