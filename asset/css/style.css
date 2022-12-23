@@ -1,0 +1,178 @@
+body,
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.centering{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pick-ball{
+    height: 100vh;
+    width: 100vw;
+    background: url(../img/bg-clear.png) no-repeat top center;
+    background-size: cover;
+
+    position: relative;
+}
+
+.pick-ball.pick-ball-tree{
+    background-image: url(../img/bg-tree.png);
+}
+
+.header{
+    height: 70px;
+    width: 100vw;
+    background: url(../img/header-bg.png) no-repeat top center;
+    background-size: 100% 100%;
+
+    position: relative;
+}
+
+.header-wrapper,
+.header-box{
+    display: flex;
+    align-items: center;
+}
+
+.header-wrapper{
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 0.5vw;
+}
+
+.header-icon{
+    height: 50px;
+    padding: 0 1vw;
+    transition: all 0.2s ease;
+}
+
+.header-icon:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.header-amount{
+    height: 42px;
+    padding: 0 20px;
+
+    border-radius: 25px;
+    border: 2px solid #9A824F;
+    background: linear-gradient(0deg, #705430 -16.47%, #2E1E00 105.54%);
+
+    color: #fff;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.primary-button{
+    width: 140px;
+    height: 50px;
+
+    padding-bottom: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: url(../img/primary-button-bg.png) no-repeat top center;
+    background-size: 100% 100%;
+
+    font-size: 18px;
+    font-weight: 900;
+    font-family: sans-serif;
+
+    color: #E30900;
+
+    letter-spacing: 1px;
+    transition: all 0.2s ease;
+}
+
+.primary-button:hover{
+    cursor: pointer;
+    transform: scale(0.95);
+}
+
+.choose-button{
+    position: absolute;
+    bottom: 4vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (min-width: 1000px) and (max-width: 1444px) {
+    .mt-90{
+        margin-top: 40px !important;
+    }
+}
+
+/* PC real only */
+@media (min-width: 1200px) {
+    .hide-on-pc {
+        display: none !important;
+    }
+
+}
+
+
+/* PC only */
+@media (min-width: 1024px) {
+    .hide-on-pc {
+        display: none !important;
+    }
+
+}
+
+/* Tablet to PC low resolution */
+
+@media (min-width: 985px) and (max-width: 1200px) {
+    .hidden-low-pc{
+        display: none !important;
+    }
+}
+
+
+/* Tablet Only */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hidden-t{
+        display: none !important;
+    }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .hidden-m-t {
+        display: none !important;
+    }
+}
+
+/* Mobile Only */
+@media (max-width: 739px) {
+
+    
+}
+
+/* 500*/
+@media (min-width: 500px) and (max-width: 742px) {
+    .hidden-500plus {
+        display: none !important;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .hidden-500{
+        display: none !important;
+    }
+}
+
+@media (max-width: 375px) {
+    
+}
+
